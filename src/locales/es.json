@@ -1,0 +1,144 @@
+
+{
+  "header": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "getQuote": "Solicitar Presupuesto"
+  },
+  "hero": {
+    "subtitle": "LARES AISLACIONES",
+    "title": "Expertos en aislamiento térmico e impermeabilización",
+    "description": "Somos especialistas en aislamiento térmico con espuma de poliuretano e impermeabilizaciones con poliurea en Barcelona. Rehabilitamos energéticamente tus espacios con las mejores soluciones del mercado.",
+    "buttonQuote": "Solicitar Presupuesto",
+    "buttonServices": "Nuestros Servicios",
+    "experience": "Años de experiencia",
+    "projects": "Proyectos completados",
+    "satisfaction": "Clientes satisfechos"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Ofrecemos soluciones integrales de aislamiento térmico e impermeabilización, tanto para rehabilitación de edificios existentes como para nuevas construcciones.",
+    "thermalInsulation": {
+      "title": "Aislamiento Térmico",
+      "description": "Aplicamos espuma de poliuretano para un aislamiento térmico óptimo, reduciendo el consumo energético y proporcionando confort."
+    },
+    "waterproofing": {
+      "title": "Impermeabilización",
+      "description": "Servicios de impermeabilización con poliurea, garantizando protección duradera contra la humedad y filtraciones."
+    },
+    "energyRehabilitation": {
+      "title": "Rehabilitación Energética",
+      "description": "Reacondicionamos trabajos previos o intervenimos en nuevas obras para optimizar la eficiencia energética de los edificios."
+    },
+    "customProjects": {
+      "title": "Proyectos a Medida",
+      "description": "Diseñamos soluciones personalizadas adaptadas a las necesidades específicas de cada cliente y proyecto."
+    },
+    "polyurethaneTitle": "¿Por qué elegir el aislamiento con poliuretano?",
+    "polyurethaneAdvantages": [
+      "Alto poder aislante con mínimo espesor",
+      "Continuidad del aislamiento sin juntas ni puentes térmicos",
+      "Gran durabilidad y resistencia a la humedad",
+      "Ahorro energético de hasta un 70%"
+    ],
+    "polyureaTitle": "Ventajas de la impermeabilización con poliurea",
+    "polyureaAdvantages": [
+      "Máxima elasticidad y resistencia al desgarro",
+      "Secado ultra rápido (5-15 segundos)",
+      "Excelente adherencia a casi cualquier superficie",
+      "Alta resistencia química y a la intemperie"
+    ]
+  },
+  "about": {
+    "title": "Conoce a Nuestro Equipo",
+    "description": [
+      "En Lares Aislaciones, nos enorgullece contar con un equipo de profesionales altamente calificados, liderados por Juan Pérez, un experto con más de 20 años de experiencia en la industria de la construcción.",
+      "Juan es un especialista reconocido en aislamiento térmico con espuma de poliuretano e impermeabilizaciones con poliurea. Su profundo conocimiento abarca diversas marcas internacionales de maquinaria y productos utilizados en este campo.",
+      "Además de su experiencia técnica, Juan ha liderado numerosos proyectos de construcción y posee habilidades sólidas en la conducción de obras, garantizando que cada proyecto se complete con los más altos estándares de calidad."
+    ],
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Proporcionar soluciones de aislamiento térmico e impermeabilización de la más alta calidad, contribuyendo a la eficiencia energética y sostenibilidad de los edificios en Barcelona y alrededores."
+    },
+    "button": "Conócenos Mejor",
+    "quote": "Cada proyecto es único y requiere soluciones personalizadas para lograr resultados óptimos."
+  },
+  "projects": {
+    "title": "Nuestros Proyectos",
+    "subtitle": "Descubre algunos de nuestros trabajos más recientes en Barcelona y alrededores. Cada proyecto refleja nuestra dedicación a la excelencia y la satisfacción del cliente.",
+    "categories": {
+      "all": "Todos",
+      "residential": "Residencial",
+      "commercial": "Comercial",
+      "industrial": "Industrial"
+    },
+    "projects": {
+      "facadeInsulation": {
+        "title": "Aislamiento de Fachada",
+        "description": "Aislamiento térmico de fachada con espuma de poliuretano para mejorar la eficiencia energética del edificio."
+      },
+      "terraceWaterproofing": {
+        "title": "Impermeabilización de Terraza",
+        "description": "Impermeabilización de terraza con poliurea para prevenir filtraciones y humedades."
+      },
+      "industrialInsulation": {
+        "title": "Aislamiento de Nave Industrial",
+        "description": "Aislamiento térmico de nave industrial para mantener temperatura constante y reducir costes energéticos."
+      },
+      "roofWaterproofing": {
+        "title": "Impermeabilización de Cubierta",
+        "description": "Impermeabilización de cubierta de edificio comercial con poliurea para garantizar estanqueidad."
+      }
+    },
+    "button": "Ver Más Proyectos"
+  },
+  "contact": {
+    "title": "Contacta con Nosotros",
+    "subtitle": "Estamos aquí para ayudarte con tus proyectos de aislamiento térmico e impermeabilización. Completa el formulario o utiliza los datos de contacto a continuación para comunicarte con nosotros.",
+    "contactInfo": {
+      "phone": "Teléfono",
+      "email": "Email",
+      "address": "Dirección"
+    },
+    "schedule": {
+      "title": "Horario de Atención",
+      "mondayFriday": "Lunes - Viernes",
+      "saturday": "Sábados",
+      "sunday": "Domingos",
+      "closed": "Cerrado"
+    },
+    "form": {
+      "title": "Envíanos un mensaje",
+      "name": "Nombre",
+      "email": "Email",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "button": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "description": "Especialistas en aislamiento térmico con espuma de poliuretano e impermeabilizaciones con poliurea en Barcelona.",
+    "services": {
+      "title": "Servicios",
+      "thermal": "Aislamiento Térmico",
+      "waterproofing": "Impermeabilización",
+      "rehabilitation": "Rehabilitación Energética",
+      "coatings": "Revestimientos",
+      "construction": "Construcción"
+    },
+    "information": {
+      "title": "Información",
+      "about": "Sobre Nosotros",
+      "projects": "Proyectos",
+      "blog": "Blog",
+      "faq": "Preguntas Frecuentes",
+      "contact": "Contacto"
+    },
+    "rights": "Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsConditions": "Términos y Condiciones"
+  }
+}

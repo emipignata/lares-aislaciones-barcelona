@@ -1,0 +1,144 @@
+
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "projects": "Projects",
+    "contact": "Contact",
+    "getQuote": "Request Quote"
+  },
+  "hero": {
+    "subtitle": "LARES AISLACIONES",
+    "title": "Experts in thermal insulation and waterproofing",
+    "description": "We specialize in thermal insulation with polyurethane foam and waterproofing with polyurea in Barcelona. We energetically rehabilitate your spaces with the best solutions on the market.",
+    "buttonQuote": "Request Quote",
+    "buttonServices": "Our Services",
+    "experience": "Years of experience",
+    "projects": "Projects completed",
+    "satisfaction": "Satisfied clients"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer comprehensive thermal insulation and waterproofing solutions, both for rehabilitation of existing buildings and for new constructions.",
+    "thermalInsulation": {
+      "title": "Thermal Insulation",
+      "description": "We apply polyurethane foam for optimal thermal insulation, reducing energy consumption and providing comfort."
+    },
+    "waterproofing": {
+      "title": "Waterproofing",
+      "description": "Waterproofing services with polyurea, ensuring long-lasting protection against moisture and leaks."
+    },
+    "energyRehabilitation": {
+      "title": "Energy Rehabilitation",
+      "description": "We recondition previous work or intervene in new projects to optimize the energy efficiency of buildings."
+    },
+    "customProjects": {
+      "title": "Custom Projects",
+      "description": "We design personalized solutions adapted to the specific needs of each client and project."
+    },
+    "polyurethaneTitle": "Why choose polyurethane insulation?",
+    "polyurethaneAdvantages": [
+      "High insulating power with minimum thickness",
+      "Continuous insulation without joints or thermal bridges",
+      "Great durability and resistance to humidity",
+      "Energy savings of up to 70%"
+    ],
+    "polyureaTitle": "Advantages of polyurea waterproofing",
+    "polyureaAdvantages": [
+      "Maximum elasticity and tear resistance",
+      "Ultra-fast drying (5-15 seconds)",
+      "Excellent adhesion to almost any surface",
+      "High chemical and weathering resistance"
+    ]
+  },
+  "about": {
+    "title": "Meet Our Team",
+    "description": [
+      "At Lares Aislaciones, we pride ourselves on having a team of highly qualified professionals, led by Juan Pérez, an expert with over 20 years of experience in the construction industry.",
+      "Juan is a recognized specialist in thermal insulation with polyurethane foam and waterproofing with polyurea. His deep knowledge encompasses various international brands of machinery and products used in this field.",
+      "In addition to his technical expertise, Juan has led numerous construction projects and possesses solid skills in work management, ensuring that each project is completed to the highest quality standards."
+    ],
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide the highest quality thermal insulation and waterproofing solutions, contributing to the energy efficiency and sustainability of buildings in Barcelona and surrounding areas."
+    },
+    "button": "Know Us Better",
+    "quote": "Each project is unique and requires customized solutions to achieve optimal results."
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Discover some of our most recent work in Barcelona and surrounding areas. Each project reflects our dedication to excellence and customer satisfaction.",
+    "categories": {
+      "all": "All",
+      "residential": "Residential",
+      "commercial": "Commercial",
+      "industrial": "Industrial"
+    },
+    "projects": {
+      "facadeInsulation": {
+        "title": "Facade Insulation",
+        "description": "Thermal insulation of facade with polyurethane foam to improve the energy efficiency of the building."
+      },
+      "terraceWaterproofing": {
+        "title": "Terrace Waterproofing",
+        "description": "Waterproofing of terrace with polyurea to prevent leaks and moisture."
+      },
+      "industrialInsulation": {
+        "title": "Industrial Warehouse Insulation",
+        "description": "Thermal insulation of industrial warehouse to maintain constant temperature and reduce energy costs."
+      },
+      "roofWaterproofing": {
+        "title": "Roof Waterproofing",
+        "description": "Waterproofing of commercial building roof with polyurea to ensure watertightness."
+      }
+    },
+    "button": "View More Projects"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to help you with your thermal insulation and waterproofing projects. Fill out the form or use the contact information below to get in touch with us.",
+    "contactInfo": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address"
+    },
+    "schedule": {
+      "title": "Office Hours",
+      "mondayFriday": "Monday - Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "closed": "Closed"
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "button": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "Specialists in thermal insulation with polyurethane foam and waterproofing with polyurea in Barcelona.",
+    "services": {
+      "title": "Services",
+      "thermal": "Thermal Insulation",
+      "waterproofing": "Waterproofing",
+      "rehabilitation": "Energy Rehabilitation",
+      "coatings": "Coatings",
+      "construction": "Construction"
+    },
+    "information": {
+      "title": "Information",
+      "about": "About Us",
+      "projects": "Projects",
+      "blog": "Blog",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "rights": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions"
+  }
+}

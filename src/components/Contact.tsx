@@ -2,8 +2,11 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin } from "lucide-react";
+import { useLocale } from "@/contexts/LocaleContext";
 
 const Contact = () => {
+  const { t } = useLocale();
+  
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -36,11 +39,10 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Contacta con <span className="text-gradient">Nosotros</span>
+                <span className="text-gradient">{t('contact.title')}</span>
               </h2>
               <p className="text-gray-700 mb-8">
-                Estamos aquí para ayudarte con tus proyectos de aislamiento térmico e impermeabilización. 
-                Completa el formulario o utiliza los datos de contacto a continuación para comunicarte con nosotros.
+                {t('contact.subtitle')}
               </p>
 
               <div className="space-y-6 mb-8">
@@ -49,7 +51,7 @@ const Contact = () => {
                     <Phone className="w-5 h-5 text-lares-700" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lares-900">Teléfono</h3>
+                    <h3 className="font-bold text-lares-900">{t('contact.contactInfo.phone')}</h3>
                     <p className="text-gray-700">+34 XXX XXX XXX</p>
                   </div>
                 </div>
@@ -59,7 +61,7 @@ const Contact = () => {
                     <Mail className="w-5 h-5 text-lares-700" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lares-900">Email</h3>
+                    <h3 className="font-bold text-lares-900">{t('contact.contactInfo.email')}</h3>
                     <p className="text-gray-700">info@laresaislaciones.com</p>
                   </div>
                 </div>
@@ -69,37 +71,37 @@ const Contact = () => {
                     <MapPin className="w-5 h-5 text-lares-700" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lares-900">Dirección</h3>
+                    <h3 className="font-bold text-lares-900">{t('contact.contactInfo.address')}</h3>
                     <p className="text-gray-700">Barcelona, España</p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                <h3 className="text-xl font-bold mb-3">Horario de Atención</h3>
+                <h3 className="text-xl font-bold mb-3">{t('contact.schedule.title')}</h3>
                 <div className="space-y-2">
                   <div className="flex justify-between">
-                    <span className="text-gray-700">Lunes - Viernes</span>
+                    <span className="text-gray-700">{t('contact.schedule.mondayFriday')}</span>
                     <span className="font-medium">9:00 - 18:00</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-gray-700">Sábados</span>
+                    <span className="text-gray-700">{t('contact.schedule.saturday')}</span>
                     <span className="font-medium">9:00 - 14:00</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-gray-700">Domingos</span>
-                    <span className="font-medium">Cerrado</span>
+                    <span className="text-gray-700">{t('contact.schedule.sunday')}</span>
+                    <span className="font-medium">{t('contact.schedule.closed')}</span>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6 border border-gray-100">
-              <h3 className="text-2xl font-bold mb-6">Envíanos un mensaje</h3>
+              <h3 className="text-2xl font-bold mb-6">{t('contact.form.title')}</h3>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <label htmlFor="name" className="block text-gray-700 mb-1 font-medium">
-                    Nombre
+                    {t('contact.form.name')}
                   </label>
                   <input
                     type="text"
@@ -114,7 +116,7 @@ const Contact = () => {
 
                 <div>
                   <label htmlFor="email" className="block text-gray-700 mb-1 font-medium">
-                    Email
+                    {t('contact.form.email')}
                   </label>
                   <input
                     type="email"
@@ -129,7 +131,7 @@ const Contact = () => {
 
                 <div>
                   <label htmlFor="phone" className="block text-gray-700 mb-1 font-medium">
-                    Teléfono
+                    {t('contact.form.phone')}
                   </label>
                   <input
                     type="tel"
@@ -144,7 +146,7 @@ const Contact = () => {
 
                 <div>
                   <label htmlFor="message" className="block text-gray-700 mb-1 font-medium">
-                    Mensaje
+                    {t('contact.form.message')}
                   </label>
                   <textarea
                     id="message"
@@ -158,7 +160,7 @@ const Contact = () => {
                 </div>
 
                 <Button type="submit" className="w-full bg-lares-700 hover:bg-lares-800 mt-4">
-                  Enviar Mensaje
+                  {t('contact.form.button')}
                 </Button>
               </form>
             </div>

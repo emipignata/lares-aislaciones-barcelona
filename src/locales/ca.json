@@ -1,0 +1,144 @@
+
+{
+  "header": {
+    "home": "Inici",
+    "services": "Serveis",
+    "about": "Nosaltres",
+    "projects": "Projectes",
+    "contact": "Contacte",
+    "getQuote": "Sol·licitar Pressupost"
+  },
+  "hero": {
+    "subtitle": "LARES AISLACIONES",
+    "title": "Experts en aïllament tèrmic i impermeabilització",
+    "description": "Som especialistes en aïllament tèrmic amb escuma de poliuretà i impermeabilitzacions amb poliurea a Barcelona. Rehabilitem energèticament els teus espais amb les millors solucions del mercat.",
+    "buttonQuote": "Sol·licitar Pressupost",
+    "buttonServices": "Els Nostres Serveis",
+    "experience": "Anys d'experiència",
+    "projects": "Projectes completats",
+    "satisfaction": "Clients satisfets"
+  },
+  "services": {
+    "title": "Els Nostres Serveis",
+    "subtitle": "Oferim solucions integrals d'aïllament tèrmic i impermeabilització, tant per a rehabilitació d'edificis existents com per a noves construccions.",
+    "thermalInsulation": {
+      "title": "Aïllament Tèrmic",
+      "description": "Apliquem escuma de poliuretà per a un aïllament tèrmic òptim, reduint el consum energètic i proporcionant confort."
+    },
+    "waterproofing": {
+      "title": "Impermeabilització",
+      "description": "Serveis d'impermeabilització amb poliurea, garantint protecció duradora contra la humitat i filtracions."
+    },
+    "energyRehabilitation": {
+      "title": "Rehabilitació Energètica",
+      "description": "Recondicionem treballs previs o intervenim en noves obres per optimitzar l'eficiència energètica dels edificis."
+    },
+    "customProjects": {
+      "title": "Projectes a Mida",
+      "description": "Dissenyem solucions personalitzades adaptades a les necessitats específiques de cada client i projecte."
+    },
+    "polyurethaneTitle": "Per què triar l'aïllament amb poliuretà?",
+    "polyurethaneAdvantages": [
+      "Alt poder aïllant amb mínim gruix",
+      "Continuïtat de l'aïllament sense juntes ni ponts tèrmics",
+      "Gran durabilitat i resistència a la humitat",
+      "Estalvi energètic de fins a un 70%"
+    ],
+    "polyureaTitle": "Avantatges de la impermeabilització amb poliurea",
+    "polyureaAdvantages": [
+      "Màxima elasticitat i resistència al esquinçament",
+      "Assecatge ultra ràpid (5-15 segons)",
+      "Excel·lent adherència a gairebé qualsevol superfície",
+      "Alta resistència química i a la intempèrie"
+    ]
+  },
+  "about": {
+    "title": "Coneix el Nostre Equip",
+    "description": [
+      "A Lares Aislaciones, ens enorgullim de comptar amb un equip de professionals altament qualificats, liderats per Juan Pérez, un expert amb més de 20 anys d'experiència a la indústria de la construcció.",
+      "Juan és un especialista reconegut en aïllament tèrmic amb escuma de poliuretà i impermeabilitzacions amb poliurea. El seu profund coneixement abasta diverses marques internacionals de maquinària i productes utilitzats en aquest camp.",
+      "A més de la seva experiència tècnica, Juan ha liderat nombrosos projectes de construcció i posseeix habilitats sòlides en la conducció d'obres, garantint que cada projecte es completi amb els més alts estàndards de qualitat."
+    ],
+    "mission": {
+      "title": "La Nostra Missió",
+      "description": "Proporcionar solucions d'aïllament tèrmic i impermeabilització de la més alta qualitat, contribuint a l'eficiència energètica i sostenibilitat dels edificis a Barcelona i rodalies."
+    },
+    "button": "Coneix-nos Millor",
+    "quote": "Cada projecte és únic i requereix solucions personalitzades per aconseguir resultats òptims."
+  },
+  "projects": {
+    "title": "Els Nostres Projectes",
+    "subtitle": "Descobreix alguns dels nostres treballs més recents a Barcelona i rodalies. Cada projecte reflecteix la nostra dedicació a l'excel·lència i la satisfacció del client.",
+    "categories": {
+      "all": "Tots",
+      "residential": "Residencial",
+      "commercial": "Comercial",
+      "industrial": "Industrial"
+    },
+    "projects": {
+      "facadeInsulation": {
+        "title": "Aïllament de Façana",
+        "description": "Aïllament tèrmic de façana amb escuma de poliuretà per millorar l'eficiència energètica de l'edifici."
+      },
+      "terraceWaterproofing": {
+        "title": "Impermeabilització de Terrassa",
+        "description": "Impermeabilització de terrassa amb poliurea per prevenir filtracions i humitats."
+      },
+      "industrialInsulation": {
+        "title": "Aïllament de Nau Industrial",
+        "description": "Aïllament tèrmic de nau industrial per mantenir temperatura constant i reduir costos energètics."
+      },
+      "roofWaterproofing": {
+        "title": "Impermeabilització de Coberta",
+        "description": "Impermeabilització de coberta d'edifici comercial amb poliurea per garantir estanquitat."
+      }
+    },
+    "button": "Veure Més Projectes"
+  },
+  "contact": {
+    "title": "Contacta amb Nosaltres",
+    "subtitle": "Estem aquí per ajudar-te amb els teus projectes d'aïllament tèrmic i impermeabilització. Completa el formulari o utilitza les dades de contacte a continuació per comunicar-te amb nosaltres.",
+    "contactInfo": {
+      "phone": "Telèfon",
+      "email": "Email",
+      "address": "Adreça"
+    },
+    "schedule": {
+      "title": "Horari d'Atenció",
+      "mondayFriday": "Dilluns - Divendres",
+      "saturday": "Dissabtes",
+      "sunday": "Diumenges",
+      "closed": "Tancat"
+    },
+    "form": {
+      "title": "Envia'ns un missatge",
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Telèfon",
+      "message": "Missatge",
+      "button": "Enviar Missatge"
+    }
+  },
+  "footer": {
+    "description": "Especialistes en aïllament tèrmic amb escuma de poliuretà i impermeabilitzacions amb poliurea a Barcelona.",
+    "services": {
+      "title": "Serveis",
+      "thermal": "Aïllament Tèrmic",
+      "waterproofing": "Impermeabilització",
+      "rehabilitation": "Rehabilitació Energètica",
+      "coatings": "Revestiments",
+      "construction": "Construcció"
+    },
+    "information": {
+      "title": "Informació",
+      "about": "Sobre Nosaltres",
+      "projects": "Projectes",
+      "blog": "Blog",
+      "faq": "Preguntes Freqüents",
+      "contact": "Contacte"
+    },
+    "rights": "Tots els drets reservats.",
+    "privacyPolicy": "Política de Privacitat",
+    "termsConditions": "Termes i Condicions"
+  }
+}

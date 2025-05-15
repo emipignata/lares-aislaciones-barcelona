@@ -1,8 +1,11 @@
 
 import { Button } from "@/components/ui/button";
 import { Shield } from "lucide-react";
+import { useLocale } from "@/contexts/LocaleContext";
 
 const Hero = () => {
+  const { t } = useLocale();
+
   return (
     <section id="inicio" className="relative pt-20 pb-20 md:pt-24 md:pb-32 overflow-hidden">
       {/* Background */}
@@ -17,38 +20,38 @@ const Hero = () => {
           <div className="order-2 lg:order-1 animate-fade-in">
             <div className="flex items-center mb-4">
               <Shield className="w-6 h-6 text-lares-700 mr-2" />
-              <h2 className="text-lares-700 font-semibold">LARES AISLACIONES</h2>
+              <h2 className="text-lares-700 font-semibold">{t('hero.subtitle')}</h2>
             </div>
             
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-              Expertos en <span className="text-gradient">aislamiento térmico</span> e impermeabilización
+              <span className="text-gradient">{t('hero.title')}</span>
             </h1>
             
             <p className="text-gray-700 mb-8 text-lg">
-              Somos especialistas en aislamiento térmico con espuma de poliuretano e impermeabilizaciones con poliurea en Barcelona. Rehabilitamos energéticamente tus espacios con las mejores soluciones del mercado.
+              {t('hero.description')}
             </p>
             
             <div className="flex flex-wrap gap-4">
               <Button className="bg-lares-700 hover:bg-lares-800 text-white px-6 py-6" size="lg">
-                Solicitar Presupuesto
+                {t('hero.buttonQuote')}
               </Button>
               <Button className="bg-white border border-lares-300 text-lares-700 hover:bg-lares-50 px-6 py-6" size="lg">
-                Nuestros Servicios
+                {t('hero.buttonServices')}
               </Button>
             </div>
             
             <div className="mt-10 grid grid-cols-3 gap-4">
               <div className="text-center">
                 <h3 className="text-3xl font-bold text-lares-700">20+</h3>
-                <p className="text-gray-600 text-sm">Años de experiencia</p>
+                <p className="text-gray-600 text-sm">{t('hero.experience')}</p>
               </div>
               <div className="text-center">
                 <h3 className="text-3xl font-bold text-lares-700">150+</h3>
-                <p className="text-gray-600 text-sm">Proyectos completados</p>
+                <p className="text-gray-600 text-sm">{t('hero.projects')}</p>
               </div>
               <div className="text-center">
                 <h3 className="text-3xl font-bold text-lares-700">100%</h3>
-                <p className="text-gray-600 text-sm">Clientes satisfechos</p>
+                <p className="text-gray-600 text-sm">{t('hero.satisfaction')}</p>
               </div>
             </div>
           </div>

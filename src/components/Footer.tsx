@@ -1,7 +1,9 @@
 
 import { Shield } from "lucide-react";
+import { useLocale } from "@/contexts/LocaleContext";
 
 const Footer = () => {
+  const { t } = useLocale();
   const currentYear = new Date().getFullYear();
   
   return (
@@ -16,8 +18,7 @@ const Footer = () => {
               </h3>
             </div>
             <p className="text-gray-300 mb-4">
-              Especialistas en aislamiento térmico con espuma de poliuretano e 
-              impermeabilizaciones con poliurea en Barcelona.
+              {t('footer.description')}
             </p>
             <div className="flex gap-4">
               <a href="#" className="text-gray-300 hover:text-lares-300">
@@ -39,29 +40,29 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-bold mb-4">Servicios</h3>
+            <h3 className="text-lg font-bold mb-4">{t('footer.services.title')}</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-lares-300">Aislamiento Térmico</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-lares-300">Impermeabilización</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-lares-300">Rehabilitación Energética</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-lares-300">Revestimientos</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-lares-300">Construcción</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-lares-300">{t('footer.services.thermal')}</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-lares-300">{t('footer.services.waterproofing')}</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-lares-300">{t('footer.services.rehabilitation')}</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-lares-300">{t('footer.services.coatings')}</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-lares-300">{t('footer.services.construction')}</a></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-lg font-bold mb-4">Información</h3>
+            <h3 className="text-lg font-bold mb-4">{t('footer.information.title')}</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-lares-300">Sobre Nosotros</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-lares-300">Proyectos</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-lares-300">Blog</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-lares-300">Preguntas Frecuentes</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-lares-300">Contacto</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-lares-300">{t('footer.information.about')}</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-lares-300">{t('footer.information.projects')}</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-lares-300">{t('footer.information.blog')}</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-lares-300">{t('footer.information.faq')}</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-lares-300">{t('footer.information.contact')}</a></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-lg font-bold mb-4">Contacto</h3>
+            <h3 className="text-lg font-bold mb-4">{t('contact.title')}</h3>
             <ul className="space-y-2">
               <li className="text-gray-300">Barcelona, España</li>
               <li className="text-gray-300">+34 XXX XXX XXX</li>
@@ -73,11 +74,11 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 mb-4 md:mb-0">
-              © {currentYear} Lares Aislaciones. Todos los derechos reservados.
+              © {currentYear} Lares Aislaciones. {t('footer.rights')}
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-gray-300 hover:text-lares-300">Política de Privacidad</a>
-              <a href="#" className="text-gray-300 hover:text-lares-300">Términos y Condiciones</a>
+              <a href="#" className="text-gray-300 hover:text-lares-300">{t('footer.privacyPolicy')}</a>
+              <a href="#" className="text-gray-300 hover:text-lares-300">{t('footer.termsConditions')}</a>
             </div>
           </div>
         </div>

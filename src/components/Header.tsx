@@ -2,10 +2,13 @@
 import { useState, useEffect } from "react";
 import { Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useLocale } from "@/contexts/LocaleContext";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const { t } = useLocale();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,55 +36,61 @@ const Header = () => {
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center gap-8">
           <a href="#inicio" className="text-lares-900 hover:text-lares-700 font-medium">
-            Inicio
+            {t('header.home')}
           </a>
           <a href="#servicios" className="text-lares-900 hover:text-lares-700 font-medium">
-            Servicios
+            {t('header.services')}
           </a>
           <a href="#nosotros" className="text-lares-900 hover:text-lares-700 font-medium">
-            Nosotros
+            {t('header.about')}
           </a>
           <a href="#proyectos" className="text-lares-900 hover:text-lares-700 font-medium">
-            Proyectos
+            {t('header.projects')}
           </a>
           <a href="#contacto" className="text-lares-900 hover:text-lares-700 font-medium">
-            Contacto
+            {t('header.contact')}
           </a>
         </nav>
 
-        <Button className="hidden md:flex bg-lares-700 hover:bg-lares-800">
-          Solicitar Presupuesto
-        </Button>
+        <div className="hidden md:flex items-center gap-4">
+          <LanguageSwitcher />
+          <Button className="bg-lares-700 hover:bg-lares-800">
+            {t('header.getQuote')}
+          </Button>
+        </div>
 
         {/* Mobile Menu Button */}
-        <button
-          onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden text-lares-900 focus:outline-none"
-        >
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+        <div className="md:hidden flex items-center gap-2">
+          <LanguageSwitcher />
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="text-lares-900 focus:outline-none"
           >
-            {menuOpen ? (
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M6 18L18 6M6 6l12 12"
-              />
-            ) : (
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            )}
-          </svg>
-        </button>
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              {menuOpen ? (
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              ) : (
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              )}
+            </svg>
+          </button>
+        </div>
       </div>
 
       {/* Mobile Menu */}
@@ -90,26 +99,26 @@ const Header = () => {
           <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
             <a href="#inicio" className="text-lares-900 py-2 font-medium border-b border-gray-100"
                onClick={() => setMenuOpen(false)}>
-              Inicio
+              {t('header.home')}
             </a>
             <a href="#servicios" className="text-lares-900 py-2 font-medium border-b border-gray-100"
                onClick={() => setMenuOpen(false)}>
-              Servicios
+              {t('header.services')}
             </a>
             <a href="#nosotros" className="text-lares-900 py-2 font-medium border-b border-gray-100"
                onClick={() => setMenuOpen(false)}>
-              Nosotros
+              {t('header.about')}
             </a>
             <a href="#proyectos" className="text-lares-900 py-2 font-medium border-b border-gray-100"
                onClick={() => setMenuOpen(false)}>
-              Proyectos
+              {t('header.projects')}
             </a>
             <a href="#contacto" className="text-lares-900 py-2 font-medium border-b border-gray-100"
                onClick={() => setMenuOpen(false)}>
-              Contacto
+              {t('header.contact')}
             </a>
             <Button className="bg-lares-700 hover:bg-lares-800 w-full" onClick={() => setMenuOpen(false)}>
-              Solicitar Presupuesto
+              {t('header.getQuote')}
             </Button>
           </div>
         </div>
