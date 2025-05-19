@@ -18,10 +18,6 @@ const Hero = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1 animate-fade-in">
-            <div className="flex items-center mb-4">
-              <Shield className="w-6 h-6 text-lares-700 mr-2" />
-              <h2 className="text-lares-700 font-semibold">{t('hero.subtitle')}</h2>
-            </div>
             
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
               <span className="text-gradient">{t('hero.title')}</span>
@@ -69,8 +65,6 @@ const Hero = () => {
               </div>
             </div>
             
-            {/* Decorative element */}
-            <div className="absolute -bottom-8 -right-8 w-24 h-24 bg-lares-100 rounded-full border-8 border-white shadow-lg hidden md:block"></div>
           </div>
         </div>
       </div>
