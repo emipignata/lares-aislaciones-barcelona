@@ -19,5 +19,6 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/lares-aislaciones-barcelona/"
+  //base: "/lares-aislaciones-barcelona/"
+  base: "./"
 }));
